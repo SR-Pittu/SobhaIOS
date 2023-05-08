@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377E05D229AE5702002E3B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E05D129AE5702002E3B31 /* AppDelegate.swift */; };
+		377E05D429AE5702002E3B31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E05D329AE5702002E3B31 /* SceneDelegate.swift */; };
+		377E05D629AE5702002E3B31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E05D529AE5702002E3B31 /* ViewController.swift */; };
+		377E05D929AE5702002E3B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E05D729AE5702002E3B31 /* Main.storyboard */; };
+		377E05DB29AE5705002E3B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377E05DA29AE5705002E3B31 /* Assets.xcassets */; };
+		377E05DE29AE5705002E3B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E05DC29AE5705002E3B31 /* LaunchScreen.storyboard */; };
+		377E05E929AE5706002E3B31 /* Pittu_Exam01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E05E829AE5706002E3B31 /* Pittu_Exam01Tests.swift */; };
+		377E05F329AE5706002E3B31 /* Pittu_Exam01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E05F229AE5706002E3B31 /* Pittu_Exam01UITests.swift */; };
+		377E05F529AE5706002E3B31 /* Pittu_Exam01UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E05F429AE5706002E3B31 /* Pittu_Exam01UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		377E05E529AE5706002E3B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377E05C629AE5702002E3B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377E05CD29AE5702002E3B31;
+			remoteInfo = Pittu_Exam01;
+		};
+		377E05EF29AE5706002E3B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377E05C629AE5702002E3B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377E05CD29AE5702002E3B31;
+			remoteInfo = Pittu_Exam01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		377E05CE29AE5702002E3B31 /* Pittu_Exam01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pittu_Exam01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		377E05D129AE5702002E3B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		377E05D329AE5702002E3B31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		377E05D529AE5702002E3B31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		377E05D829AE5702002E3B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		377E05DA29AE5705002E3B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		377E05DD29AE5705002E3B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		377E05DF29AE5705002E3B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377E05E429AE5706002E3B31 /* Pittu_Exam01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pittu_Exam01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377E05E829AE5706002E3B31 /* Pittu_Exam01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pittu_Exam01Tests.swift; sourceTree = "<group>"; };
+		377E05EE29AE5706002E3B31 /* Pittu_Exam01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pittu_Exam01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377E05F229AE5706002E3B31 /* Pittu_Exam01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pittu_Exam01UITests.swift; sourceTree = "<group>"; };
+		377E05F429AE5706002E3B31 /* Pittu_Exam01UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pittu_Exam01UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377E05CB29AE5702002E3B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377E05E129AE5706002E3B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377E05EB29AE5706002E3B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		377E05C529AE5702002E3B31 = {
+			isa = PBXGroup;
+			children = (
+				377E05D029AE5702002E3B31 /* Pittu_Exam01 */,
+				377E05E729AE5706002E3B31 /* Pittu_Exam01Tests */,
+				377E05F129AE5706002E3B31 /* Pittu_Exam01UITests */,
+				377E05CF29AE5702002E3B31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		377E05CF29AE5702002E3B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				377E05CE29AE5702002E3B31 /* Pittu_Exam01.app */,
+				377E05E429AE5706002E3B31 /* Pittu_Exam01Tests.xctest */,
+				377E05EE29AE5706002E3B31 /* Pittu_Exam01UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		377E05D029AE5702002E3B31 /* Pittu_Exam01 */ = {
+			isa = PBXGroup;
+			children = (
+				377E05D129AE5702002E3B31 /* AppDelegate.swift */,
+				377E05D329AE5702002E3B31 /* SceneDelegate.swift */,
+				377E05D529AE5702002E3B31 /* ViewController.swift */,
+				377E05D729AE5702002E3B31 /* Main.storyboard */,
+				377E05DA29AE5705002E3B31 /* Assets.xcassets */,
+				377E05DC29AE5705002E3B31 /* LaunchScreen.storyboard */,
+				377E05DF29AE5705002E3B31 /* Info.plist */,
+			);
+			path = Pittu_Exam01;
+			sourceTree = "<group>";
+		};
+		377E05E729AE5706002E3B31 /* Pittu_Exam01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				377E05E829AE5706002E3B31 /* Pittu_Exam01Tests.swift */,
+			);
+			path = Pittu_Exam01Tests;
+			sourceTree = "<group>";
+		};
+		377E05F129AE5706002E3B31 /* Pittu_Exam01UITests */ = {
+			isa = PBXGroup;
+			children = (
+				377E05F229AE5706002E3B31 /* Pittu_Exam01UITests.swift */,
+				377E05F429AE5706002E3B31 /* Pittu_Exam01UITestsLaunchTests.swift */,
+			);
+			path = Pittu_Exam01UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		377E05CD29AE5702002E3B31 /* Pittu_Exam01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377E05F829AE5706002E3B31 /* Build configuration list for PBXNativeTarget "Pittu_Exam01" */;
+			buildPhases = (
+				377E05CA29AE5702002E3B31 /* Sources */,
+				377E05CB29AE5702002E3B31 /* Frameworks */,
+				377E05CC29AE5702002E3B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pittu_Exam01;
+			productName = Pittu_Exam01;
+			productReference = 377E05CE29AE5702002E3B31 /* Pittu_Exam01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		377E05E329AE5706002E3B31 /* Pittu_Exam01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377E05FB29AE5706002E3B31 /* Build configuration list for PBXNativeTarget "Pittu_Exam01Tests" */;
+			buildPhases = (
+				377E05E029AE5706002E3B31 /* Sources */,
+				377E05E129AE5706002E3B31 /* Frameworks */,
+				377E05E229AE5706002E3B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377E05E629AE5706002E3B31 /* PBXTargetDependency */,
+			);
+			name = Pittu_Exam01Tests;
+			productName = Pittu_Exam01Tests;
+			productReference = 377E05E429AE5706002E3B31 /* Pittu_Exam01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		377E05ED29AE5706002E3B31 /* Pittu_Exam01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377E05FE29AE5706002E3B31 /* Build configuration list for PBXNativeTarget "Pittu_Exam01UITests" */;
+			buildPhases = (
+				377E05EA29AE5706002E3B31 /* Sources */,
+				377E05EB29AE5706002E3B31 /* Frameworks */,
+				377E05EC29AE5706002E3B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377E05F029AE5706002E3B31 /* PBXTargetDependency */,
+			);
+			name = Pittu_Exam01UITests;
+			productName = Pittu_Exam01UITests;
+			productReference = 377E05EE29AE5706002E3B31 /* Pittu_Exam01UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		377E05C629AE5702002E3B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					377E05CD29AE5702002E3B31 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					377E05E329AE5706002E3B31 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 377E05CD29AE5702002E3B31;
+					};
+					377E05ED29AE5706002E3B31 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 377E05CD29AE5702002E3B31;
+					};
+				};
+			};
+			buildConfigurationList = 377E05C929AE5702002E3B31 /* Build configuration list for PBXProject "Pittu_Exam01" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 377E05C529AE5702002E3B31;
+			productRefGroup = 377E05CF29AE5702002E3B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377E05CD29AE5702002E3B31 /* Pittu_Exam01 */,
+				377E05E329AE5706002E3B31 /* Pittu_Exam01Tests */,
+				377E05ED29AE5706002E3B31 /* Pittu_Exam01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		377E05CC29AE5702002E3B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377E05DE29AE5705002E3B31 /* LaunchScreen.storyboard in Resources */,
+				377E05DB29AE5705002E3B31 /* Assets.xcassets in Resources */,
+				377E05D929AE5702002E3B31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377E05E229AE5706002E3B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377E05EC29AE5706002E3B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		377E05CA29AE5702002E3B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377E05D629AE5702002E3B31 /* ViewController.swift in Sources */,
+				377E05D229AE5702002E3B31 /* AppDelegate.swift in Sources */,
+				377E05D429AE5702002E3B31 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377E05E029AE5706002E3B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377E05E929AE5706002E3B31 /* Pittu_Exam01Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377E05EA29AE5706002E3B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377E05F329AE5706002E3B31 /* Pittu_Exam01UITests.swift in Sources */,
+				377E05F529AE5706002E3B31 /* Pittu_Exam01UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		377E05E629AE5706002E3B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377E05CD29AE5702002E3B31 /* Pittu_Exam01 */;
+			targetProxy = 377E05E529AE5706002E3B31 /* PBXContainerItemProxy */;
+		};
+		377E05F029AE5706002E3B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377E05CD29AE5702002E3B31 /* Pittu_Exam01 */;
+			targetProxy = 377E05EF29AE5706002E3B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		377E05D729AE5702002E3B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377E05D829AE5702002E3B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		377E05DC29AE5705002E3B31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377E05DD29AE5705002E3B31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		377E05F629AE5706002E3B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		377E05F729AE5706002E3B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		377E05F929AE5706002E3B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pittu_Exam01/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pittu_Exam01;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Pittu-Exam01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		377E05FA29AE5706002E3B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pittu_Exam01/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pittu_Exam01;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Pittu-Exam01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		377E05FC29AE5706002E3B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Pittu-Exam01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pittu_Exam01.app/Pittu_Exam01";
+			};
+			name = Debug;
+		};
+		377E05FD29AE5706002E3B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Pittu-Exam01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pittu_Exam01.app/Pittu_Exam01";
+			};
+			name = Release;
+		};
+		377E05FF29AE5706002E3B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Pittu-Exam01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pittu_Exam01;
+			};
+			name = Debug;
+		};
+		377E060029AE5706002E3B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Pittu-Exam01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pittu_Exam01;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		377E05C929AE5702002E3B31 /* Build configuration list for PBXProject "Pittu_Exam01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377E05F629AE5706002E3B31 /* Debug */,
+				377E05F729AE5706002E3B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377E05F829AE5706002E3B31 /* Build configuration list for PBXNativeTarget "Pittu_Exam01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377E05F929AE5706002E3B31 /* Debug */,
+				377E05FA29AE5706002E3B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377E05FB29AE5706002E3B31 /* Build configuration list for PBXNativeTarget "Pittu_Exam01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377E05FC29AE5706002E3B31 /* Debug */,
+				377E05FD29AE5706002E3B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377E05FE29AE5706002E3B31 /* Build configuration list for PBXNativeTarget "Pittu_Exam01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377E05FF29AE5706002E3B31 /* Debug */,
+				377E060029AE5706002E3B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 377E05C629AE5702002E3B31 /* Project object */;
+}
